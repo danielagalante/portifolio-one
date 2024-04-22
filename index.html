@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Folha de estilo de CSS Linkado -->
+    <link rel="stylesheet" href="Style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <!--Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!---Cabeçalho-->
+
+    <div class="background">
+        <nav>
+            <h2 class="logo">Portifó<span>lio</span></h2><!--Logo-->
+            <ul class="cabeçalho-link">
+                <li><a href="#Início">Início</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Formação">Formações</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+
+    <!--Página inicial-->
+
+    <div id="Início">
+        <div class="main">
+            <h4>Olá, eu sou</h4>
+            <h1>Daniela <span>Galante</span></h1>
+            <h3>Desenvolvedora FrontEnd em formação,<br>apaixonada em tecnologia e atualmente<br>participo do projeto Oracle ONE na Alura.</h3>
+            <ul class="title__network">
+                <li class="title__network__item"><a href="https://github.com/danielagalante"><img class="network__img" src="./assets/github.png"></a></li>
+                <li class="title__network__item"><a href="https://www.linkedin.com/in/daniela-galante"><img class="network__img" src="assets/linkedin.png"></a></li>
+            </ul>
+        </div><!--main-->
+    </div> <!--background-->
+
+        <aside>
+            <div class="icon-menu">
+                <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
+            </div><!--icon-menu-->
+
+            <div id="barra-menu">
+                <ul>
+                    <li><a href="#Início">Início</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Formação">Formação</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+            </div><!--barra-menu-->
+        </aside>
+
+
+    </div><!--background-->
+
+
+<!--Sobre-->
+
+<div id="Sobre">
+    <section class="background-color-Sobre">
+        <div class="main-sobre">
+            <img src="./assets/main-img.png">
+            <div class="Text-sobre">
+                <h2>Sobre</h2>
+                <h5>Desenvolvedor <span>FrontEnd</span></h5>
+                <p>Tenho 30 anos, sempre gostei de estudar, pesquisar e estar por dentro do mundo da tecnologia. <br> Quando mais nova, realizei uma formação dentro da área da saúde, conseguindo atuar em diversos âmbitos, onde minhas experiências me proporcionaram crescimento profissional e pessoal, juntamente consegui fazer alguns pequenos trabalhos de Social Media Designer querendo sempre ficar mais próximo desse mundo. Hoje busco a transição de carreira, onde me dedico a fazer cursos e formações em busca de aumentar a bagagem de conhecimento e criar oportunidades para vivenciar o que tanto sou apaixonada.</p>
+                <button type="button" onclick="window.location.href='#Contato'">Vamos conversar</button><!-- Button -->
+            </div><!-- Text-sobre -->
+        </div><!-- main-sobre -->
+    </section><!-- background-color-Sobre -->
+</div><!-- Sobremim -->
+
+    <!--Skilss-->
+
+    <div id="Skills">
+    <div class="Container-skills">
+        <div class="title">
+            <h2>Skills</h2>
+        </div><!--title-->
+
+        <div class="Caixa">
+            <div class="Card">
+                <ul>
+                    <li class="skills__img"><img src="./assets/html.png"></li>
+                    <h5>HTML</h5>
+                </ul>
+            </div><!--Card-->
+
+            <div class="Card">
+                <ul>
+                    <li class="skills__img"><img src="./assets/css.png"></li>
+                    <h5>CSS</h5>
+                </ul>
+            </div><!--Card-->
+
+            <div class="Card">
+                <ul>
+                    <li class="skills__img"><img src="./assets/javascript.png"></li>
+                    <h5>JAVASCRIPT</h5>
+                </ul>
+            </div><!--Card-->
+
+            <div class="Card">
+                <ul>
+                    <li class="skills__img"><img src="./assets/illustrator.png"></li>
+                    <h5>ILLUSTRATOR</h5>
+                </ul>
+            </div><!--Card-->
+
+            <div class="Card">
+                <ul>
+                    <li class="skills__img"><img src="./assets/corel.png"></li>
+                    <h5>CORELDRAWN</h5>
+                </ul>
+            </div><!--Card-->
+
+            <div class="Card">
+                <ul>
+                    <li class="skills__img"><img src="./assets/photoshop.png"></li>
+                    <h5>PHOTOSHOP</h5>
+                </ul>
+            </div><!--Card-->
+        </div><!--Caixa-->
+    </div><!--Skills-->
+    </div>
+
+
+    <!--formações-->
+    <div id="Formação">
+    <div class="Container-formacao">
+        <div class="title">
+            <h2>Formações</h2>
+        </div><!--title-->
+
+        <div class="formacao">
+            <div class="formacao__Card">
+                <ul>
+                    <li class="form__img"><img src="./assets/onealura.png"></li>
+                    <h5>ONE T6 - Oracle One e Alura</h5>
+                    <div class="Paragrafo-button">
+                        <p>Especialização FrontEnd</p>
+                    </div><!--Paragrafo-button-->
+                </ul>
+            </div><!--formacao Card-->
+
+            <div class="formacao__Card">
+                <ul>
+                    <li class="form__img"><img src="./assets/dio.png"></li>
+                    <h5>DIO e Santander Bootcamp</h5>
+                    <div class="Paragrafo-button">
+                        <p>Desenvolvedor Fullstack</p>
+                    </div><!--Paragrafo-button-->
+                </ul>
+            </div><!--formacao Card-->
+
+            <div class="formacao__Card">
+                <ul>
+                    <li class="form__img"><img src="./assets/fundacao.png"></li>
+                    <h5>Fundação Estudar - CC50</h5>
+                    <div class="Paragrafo-button">
+                        <p>Introdução à Ciência da Computação<br>O Curso de Harvard, no Brasil</p>
+                    </div><!--Paragrafo-button-->
+                </ul>
+        </div><!--formacao Card-->
+    </div><!--formacao-->
+    </di>
+
+    
+    <!--Contatos-->
+    <div id="Contato">
+        <div class="container-contato">
+            <div>
+              <img src="./assets/contato.png" alt="imagem de telefone" class="imagem-contato" />
+            </div>
+            <form id="formulario" class="formulario__texto">
+              <h3>Contato</h3>
+              <p>Quer entrar em contato comigo?</p>
+              <p>
+                Preencha o formulário ao lado e entrarei em contato o mais rápido
+                possível.
+              </p>
+              <div class="single-input">
+                <input
+                  type="text"
+                  name=""
+                  id="nome"
+                  class=""
+                  maxlength="50"
+                  required
+                />
+                <label for="nome">Nome</label>
+              </div>
+              <div class="single-input">
+                <input type="text" name="" id="email" class="" required />
+                <label for="email">Email</label>
+              </div>
+              <div class="single-input">
+                <input
+                  type="text"
+                  name=""
+                  id="assunto"
+                  class=""
+                  maxlength="50"
+                  required
+                />
+                <label for="assunto">Assunto</label>
+              </div>
+              <div class="single-input2">
+                <textarea
+                  name=""
+                  id="mensagem"
+                  class=""
+                  cols="30"
+                  rows="10"
+                  required
+                ></textarea>
+                <label for="mensagem">Mensagem</label>
+              </div>
+              <button type="submit" id="botao-form" class="botao2">
+                Enviar Mensagem
+              </button>
+            </form>
+          </div>
+    </div>   
+        </main>
+
+    <footer>
+          <p>Desenvolvido por Daniela Galante</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+</body>
+</html>
